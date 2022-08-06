@@ -1,0 +1,807 @@
+<!--  -->
+<nav class="nav justify-content-center fixed-top bg-success sticky-top">
+    <a class="nav-link text-dark" href="#div1">Div 1</a>
+    <a class="nav-link text-dark" href="#div2">Div 2</a>
+    <a class="nav-link text-dark" href="#div3">Div 3</a>
+</nav>
+<!--  -->
+<div class="d-flex">
+    <div class="flex-shrink-0">
+        <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" alt="" width="">
+    </div>
+    <div class="flex-grow-1 ms-3">
+        <h5 class="mt-0">Media heading</h5>
+        <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
+        </p>
+
+        <div class="d-flex">
+            <div class="flex-shrink-0">
+                <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" alt="" width="">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <h5 class="mt-0">Media heading</h5>
+                <p>This is some content from a media component. You can replace this with any content and adjust it as needed.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="list-group col-4">
+        <button type="button" class="list-group-item list-group-item-action active">Active item</button>
+        <button type="button" class="list-group-item list-group-item-action">Item</button>
+        <button type="button" class="list-group-item list-group-item-action disabled">Disabled item</button>
+    </div>
+    <!--  -->
+    <ul class="list-group col-4">
+        <li class="list-group-item d-flex justify-content-between align-items-center active">
+            Active list item
+            <span class="badge bg-secondary badge-pill">pill1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            List item
+            <span class="badge bg-secondary badge-pill">pill2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center disabled">
+            Disabled item
+            <span class="badge bg-secondary badge-pill">pill3</span>
+        </li>
+    </ul>
+    <!--  -->
+    <div class="list-group col-4">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Heading</h5>
+                <small>small</small>
+            </div>
+            <p class="mb-1">Paragraph</p>
+            <small>paragraph footer</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Heading</h5>
+                <small>small</small>
+            </div>
+            <p class="mb-1">Paragraph</p>
+            <small>paragraph footer</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start disabled">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Heading</h5>
+                <small>small</small>
+            </div>
+            <p class="mb-1">Paragraph</p>
+            <small>paragraph footer</small>
+        </a>
+    </div>
+</div>
+<!--  -->
+<div class="d-flex">
+    <div class="flex-grow-1 ms-3">
+        <h5 class="mt-0">Media heading</h5>
+        <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
+        </p>
+    </div>
+    <div class="flex-shrink-0">
+        <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" alt="" width="">
+    </div>
+</div>
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
+  Launch
+</button>
+<!-- Modal -->
+<div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">modal-sm</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="modal-body">
+                Body
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Nav tabs -->
+<nav class="nav justify-content-center">
+    <a class="nav-link active" href="#">Active link</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link disabled" href="#">Disabled link</a>
+</nav>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="navId" role="tablist">
+    <li class="nav-item">
+        <a href="#tab1Id" class="nav-link active" data-bs-toggle="tab">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#tab2Id">Action</a>
+            <a class="dropdown-item" href="#tab3Id">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#tab4Id">Action</a>
+        </div>
+
+    </li>
+    <li class="nav-item" role="presentation">
+        <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Another link</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a href="#" class="nav-link disabled" data-bs-toggle="tab">Disabled</a>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="tab1Id" role="tabpanel">1</div>
+    <div class="tab-pane fade" id="tab2Id" role="tabpanel">2</div>
+    <div class="tab-pane fade" id="tab3Id" role="tabpanel">3</div>
+    <div class="tab-pane fade" id="tab4Id" role="tabpanel">4</div>
+    <div class="tab-pane fade" id="tab5Id" role="tabpanel">5</div>
+</div>
+
+<!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+<script>
+    var triggerEl = document.querySelector('#navId a')
+    bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+</script>
+<!--  -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"> home </div>
+    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab"> profile </div>
+    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab"> messages </div>
+</div>
+<!--  -->
+<nav class="nav nav-tabs flex-column">
+    <a class="nav-link active" href="#">Active link</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link disabled" href="#">Disabled link</a>
+</nav>
+<!--  -->
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a href="#" class="nav-link active">nav-pills</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">Another link</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+    </li>
+</ul>
+<!--  -->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a href="#" class="nav-link active">nav-tabs</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">Another link</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+    </li>
+</ul>
+<!--  -->
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled link</a>
+    </li>
+</ul>
+<!--  -->
+<ul class="nav nav-tabs flex-column">
+    <li class="nav-item">
+        <a href="#" class="nav-link active">Active</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+    </li>
+    <li class="nav-item disabled">
+        <a href="#" class="nav-link">Disabled</a>
+    </li>
+</ul>
+<!--  -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--  -->
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #35abff;">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+            </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!--  -->
+<nav class="navbar navbar-expand navbar-light bg-light">
+    <ul class="nav navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Nav 1 <span class="visually-hidden">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Nav 2</a>
+        </li>
+    </ul>
+</nav>
+<!--  -->
+<nav class="navbar navbar-expand navbar-light bg-faded">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Active <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+            </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!--  -->
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--  -->
+<br>
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+            </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!--  -->
+<div class="text-xs-center" id="progressId">Description</div>
+<progress class="progress" value="" max="100" aria-describedby="progressId">
+  <div class="progress">
+    <span class="progress-bar" style="width: 100%;"></span>
+  </div>
+</progress>
+<!-- <div>
+    <div>
+        <div id="div1" class="bg-primary" style="height:100px">div1</div>
+        <div id="div2" class="bg-success" style="height:100px">div2</div>
+        <div id="div3" class="bg-light" style="height:100px">div3</div>
+    </div>
+</div> -->
+<!--  -->
+<dl class="row">
+    <dt class="col-sm-3 bg-black">1</dt>
+    <dd class="col-sm-9 bg-danger">2</dd>
+    <dt class="col-sm-3 bg-success">3</dt>
+    <dd class="col-sm-9 bg-secondary">4</dd>
+    <dd class="col-sm-9 offset-sm-3 bg-warning">5</dd>
+    <dt class="col-sm-3 text-truncate bg-primary">6</dt>
+    <dd class="col-sm-9 bg-secondary">7</dd>
+    <dt class="col-sm-3 bg-warning">8</dt>
+    <dd class="col-sm-9 bg-success">
+        <dl class="row">
+            <dt class="col-sm-4">Nested title</dt>
+            <dd class="col-sm-8">Nested definition</dd>
+        </dl>
+    </dd>
+</dl>
+<!--  -->
+<h1 class="display-1">heading1</h1>
+<h1 class="display-4">heading1=4</h1>
+<ul class="list-unstyled">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+<p class="lead">
+    ádas
+</p>
+<ul class="list-inline">
+    <li class="list-inline-item">3</li>
+    <li class="list-inline-item">2</li>
+    <li class="list-inline-item">1</li>
+</ul>
+<small class="text-muted">ádasdsa</small>
+<!--  -->
+<div class="p-5 bg-light">
+    <div class="container">
+        <h1 class="display-3">Jumbo heading</h1>
+        <p class="lead">Jumbo helper text</p>
+        <hr class="my-2">
+        <p>More info</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+        </p>
+    </div>
+</div>
+<!--  -->
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="#"></a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#"></a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<!--  -->
+<div class="input-group mb-3">
+    <button type="button" class="btn btn-outline-secondary ">Dropdown</button>
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item disabled" href="#">Disabled action</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+    <input type="text" class="form-control" name="name" id="name" placeholder="" aria-label="">
+</div>
+<!--  -->
+<div class="input-group mb-3">
+    <span class="input-group-btn">
+    <button class="btn btn-secondary" type="button" aria-label="">Action</button>
+  </span>
+    <input type="text" class="form-control" name="name" id="name" placeholder="" aria-label="">
+</div>
+<!--  -->
+<div class="container">
+    <form>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="" value="{3:option1}">
+            <label class="form-check-label" for="">first</label>
+        </div>
+        <!--  -->
+        <div class="mb-3">
+            <label for="" class="form-label"></label>
+            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+            <small id="emailHelpId" class="form-text text-muted">Help text</small>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputName" class="col-xs-4 col-form-label">Name</label>
+            <div class="col-xs-8">
+                <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Name">
+            </div>
+        </div>
+        <fieldset class="mb-3 row">
+            <legend class="col-form-legend col-xs-4">Group name</legend>
+            <div class="col-xs-8">
+                you can use radio and checkboxes here
+            </div>
+        </fieldset>
+        <div class="mb-3 row">
+            <div class="offset-sm-4 col-sm-8">
+                <button type="submit" class="btn btn-primary">Action</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!--  -->
+
+<!--  -->
+
+<div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="" value="option2">
+    <label class="form-check-label" for="">second</label>
+</div>
+<div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="" value="option3" disabled>
+    <label class="form-check-label" for="">disabled</label>
+</div>
+<label class="custom-control custom-checkbox">
+  <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
+  <span class="custom-control-indicator">sadasd</span>
+  <span class="custom-control-description">ádsad</span>
+</label>
+<!--  -->
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="">
+    <label class="form-check-label" for="">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="" checked>
+    <label class="form-check-label" for="">
+    Checked checkbox
+  </label>
+</div>
+<!--  -->
+<figure class="figure">
+    <img src="" class="figure-img img-fluid rounded" alt="">
+    <figcaption class="figure-caption text-xs-end">ádasdasfs</figcaption>
+</figure>
+<!--  -->
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-secondary">Split dropup</button>
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item disabled" href="#">Disabled action</a>
+        <h6 class="dropdown-header">Section header</h6>
+        <a class="dropdown-item" href="#">Action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">After divider action</a>
+    </div>
+</div>
+
+<!--  -->
+<div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        This dropdown's menu is start/end-aligned
+  </button>
+    <div class="dropdown-menu dropdown-menu-start" aria-labelledby="triggerId">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item disabled" href="#">Disabled action</a>
+        <h6 class="dropdown-header">Section header</h6>
+        <a class="dropdown-item" href="#">Action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">After divider action</a>
+    </div>
+</div>
+<!-- bs5 -->
+<p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#contentId" aria-expanded="false" aria-controls="contentId">
+    Show
+  </a>
+</p>
+<div class="collapse" id="contentId">
+    f à à ấ
+</div>
+<!--  -->
+<p>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#contentId1" aria-expanded="false" aria-controls="contentId">
+    Show
+  </button>
+</p>
+<div class="collapse" id="contentId1">
+    dasdasdasfasfaf á
+</div>
+<!--  -->
+<div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" alt="Third slide">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--  -->
+<div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" class="w-100 d-block" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" class="w-100 d-block" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/Project-SIM1/src/assets/img/Screenshot_1.png" class="w-100 d-block" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Title</h3>
+                <p>Description</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--  -->
+<div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        This dropdown's menu is start/end-aligned
+  </button>
+    <div class="dropdown-menu dropdown-menu-start" aria-labelledby="triggerId">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item disabled" href="#">Disabled action</a>
+        <h6 class="dropdown-header">Section header</h6>
+        <a class="dropdown-item" href="#">Action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">After divider action</a>
+    </div>
+</div>
+<!--  -->
+<div class="card bg-dark text-white">
+    <img class="card-img" src="holder.js/100x180/" alt="Title">
+    <div class="card-img-overlay">
+        <h4 class="card-title">Title</h4>
+        <p class="card-text">Text</p>knaskdnasdkbsajbhb
+    </div>
+</div>
+<!--  -->
+<i class="bi bi-vector-pen"></i>
+<i class="bi bi-whatsapp"></i>
+<!--  -->
+<div class="card text-start col-2">
+    <div class="card-body">
+        <h4 class="card-title">Title</h4>
+        <p class="card-text">Body</p>
+    </div>
+</div>
+<!--  -->
+<button type="button" class="btn btn-primary" data-bs-toggle="button" aria-pressed="false" autocomplete="off">Button Toggle</button>
+<!--  -->
+<a href="#" class="btn btn-primary active|disabled" role="button">Button disabled</a>
+<!--  -->
+<a name="" id="" class="btn btn-primary" href="#" role="button">Button</a>
+<!--  -->
+<div class="btn-group" role="group" data-bs-toggle="buttons">
+    <label class="btn btn-primary active">
+    <input type="checkbox" class="me-2" name="" id="" checked autocomplete="off"> Choice
+  </label>
+    <label class="btn btn-primary">
+    <input type="checkbox" class="me-2" name="" id="" autocomplete="off"> Choice
+  </label>
+    <label class="btn btn-primary">
+    <input type="checkbox" class="me-2" name="" id="" autocomplete="off"> Choice
+  </label>
+</div>
+<!--  -->
+
+<h1>hello</h1>
+
+<div class="accordion col-3" id="accordionExample">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    <ul id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <li>the 1</li>
+        <li>the 2</li>
+        <li>the 3</li>
+        <li>the 4</li>
+    </ul>
+</div>
+<nav class="breadcrumb">
+    <a class="breadcrumb-item" href="#">Main</a>
+    <a class="breadcrumb-item" href="#">Sub</a>
+    <span class="breadcrumb-item active" aria-current="page">Active</span>
+</nav>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Main</a></li>
+        <li class="breadcrumb-item"><a href="#">Sub</a></li>
+        <li class="breadcrumb-item active">Active</li>
+    </ol>
+</nav>
+<!--  -->
